@@ -1,0 +1,75 @@
+.banner{
+    background-color: $color;
+    padding: 200px 0 280px 0;
+    @media (max-width:767px){
+        padding: 170px 0 150px 0;
+    }
+}
+.banner-content{
+    text-align: center;
+    .banner-content__heading{
+        font-size: 56px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 10px;
+        @media(max-width:990px){
+            font-size: 40px;
+        }
+    }
+    .banner-content__line{
+        background-color: #62d8d5;
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+        margin-bottom: 15px;
+        @media(max-width:990px){
+            width: 90%;
+            margin: 0 auto 15px auto;
+        }
+    }
+    .banner-content__desc{
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 50px;
+        @media(max-width:990px){
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    }
+    .banner-content-wrapper{
+        margin-bottom: 30px;
+        @media (max-width:767px){
+            flex-direction: column;
+        }
+        .banner-content-btn{
+            border: 1px solid #62d8d5;
+            width: 220px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin: 0 20px;
+            font-family: 'Montserrat', sans-serif !important;
+            text-decoration: none;
+            font-weight: 500;
+            @media (max-width:767px){
+                width: 100%;
+                margin: 0  0 20px 0;
+            }
+        }
+        .banner-content-btn1{
+            background-color: #62d8d5;
+            color: $color;
+        }
+        .banner-content-btn2{
+            background-color: $color;
+            color: #62d8d5;
+        }
+    }
+    .banner-content__sm-desc{
+        color: #fff;
+        font-size: 14px;
+    }
+}

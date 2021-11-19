@@ -1,0 +1,105 @@
+.helping-manager {
+  transform: translateY(-60px);
+  text-align: center;
+  .helping-manager__heading {
+    font-size: 36px;
+    color: #332a5d;
+    margin-bottom: 60px;
+    text-align: center;
+    @media (max-width: 990px) {
+      font-size: 25px;
+    }
+  }
+}
+
+.product_tour {
+  font-size: 18px;
+  color: #332a5d;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  .product_tour-design {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: $color;
+    right: 0;
+    top: 20px;
+  }
+}
+
+.helping-manager-box {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 40px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.helping-manager__col {
+  display: inline-flex;
+  column-gap: 30px;
+  width: 100%;
+}
+.helping-manager-box__img {
+  margin-bottom: 20px;
+}
+.helping-manager-box__heading {
+  font-size: 22px;
+  color: $color;
+  margin-bottom: 10px;
+  @media (max-width: 990px) {
+    font-size: 18px;
+  }
+}
+.helping-manager-box__desc {
+  font-size: 18px;
+  color: #001;
+  margin-bottom: 20px;
+  @media (max-width: 990px) {
+    font-size: 15px;
+  }
+}
+.helping-manager-box__arrow {
+  width: 30px;
+  height: auto;
+  @media (max-width: 990px) {
+    width: 20px;
+  }
+}
+.helping-manager-box2 {
+  flex-direction: row;
+  padding: 25px;
+  &:hover {
+    transform: translateY(0px);
+    .helping-manager-box__heading {
+      .helping-manager-box2__line {
+        background-color: $color;
+        transition: width 0.5s ease-in-out;
+        width: 100%;
+      }
+    }
+  }
+  .helping-manager-box__img {
+    margin-bottom: 0;
+  }
+  .helping-manager-box__heading {
+    font-size: 18px !important;
+    @media (max-width: 990px) {
+      font-size: 16px !important;
+    }
+    margin-left: 15px;
+    margin-bottom: 0;
+    .helping-manager-box2__line {
+      height: 2px;
+      width: 0%;
+      background-color: #fff;
+      transition: width 0.5s ease-in-out;
+    }
+  }
+}

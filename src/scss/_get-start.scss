@@ -1,0 +1,46 @@
+.get-start {
+  background-color: #fff;
+  padding: 220px 0 0px 0;
+  @media (max-width: 767px) {
+    padding: 150px 0 0px 0;
+  }
+  .get-start__heading {
+    font-size: 30px;
+    color: #332a5d;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    @media (max-width: 990px) {
+      font-size: 22px;
+    }
+    @media (max-width: 767px) {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+  }
+  .get-start-form {
+    margin: 0 auto 40px auto;
+    width: 80%;
+    @media (max-width: 990px) {
+      width: 100%;
+    }
+    .get-start-input {
+      border-radius: 10px !important;
+      height: 55px;
+      @media (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+    }
+    .btn-blue {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(50, 50, 160);
+      border-radius: 4px;
+      color: #fff;
+      &:hover {
+        opacity: 90%;
+      }
+    }
+  }
+}

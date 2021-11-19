@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+$color: #152d51;
+$color1: #332a5d;
+$color2: #dfdfe1;
+$color3: #f6f5fb;
+$primary-btn-color: #3e27b7 !important;
+$primary-btn-hover-color: #502edf !important;
+$secondary-btn-color: #62d8d5 !important;
+$secondary-btn-hover-color: #9bfffd !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none !important;
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+button {
+  outline: none;
+  &:hover,
+  &:focus {
+    border: none;
+  }
+}
+img {
+  max-width: 100%;
+}
+.button {
+  border: none;
+  font-family: 'Montserrat', sans-serif !important;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  &:hover {
+    transition: all 0.5s ease-in-out;
+  }
+}
+.btn-blue {
+  background-color: #3e27b7;
+  color: #fff important;
+  padding: 10px 20px !important;
+  &:hover {
+    background-color: #502edf;
+    color: #fff important;
+  }
+}
+.btn-secondary {
+  background-color: $secondary-btn-color !important;
+  &:hover {
+    background-color: $secondary-btn-hover-color !important;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.wrapper {
+  display: flex;
+}
+.jst-center {
+  justify-content: center;
+}
+.jst-btw {
+  justify-content: space-between;
+}
+.al-center {
+  align-items: center;
+}
+@import './scss/navbar';
+@import './scss/banner';
+@import './scss/banner-overlay';
+@import './scss/helping-manager';
+@import './scss/who-we-are';
+@import './scss/t-plan';
+@import './scss/get-start';
+@import './scss/footer';
+@import './scss/free-trail-model';
+@import './scss/login';
+@import './scss/pricing';
+@import './scss/sub-banner';

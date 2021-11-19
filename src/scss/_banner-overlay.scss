@@ -1,0 +1,11 @@
+.banner-overlay{
+    transform: translateY(-200px);
+    text-align: center;
+    @media (max-width:767px){
+        transform: translateY(-100px);
+    }
+    .banner-overlay__img{
+        width: auto;
+        max-height: 590px;
+    }
+}

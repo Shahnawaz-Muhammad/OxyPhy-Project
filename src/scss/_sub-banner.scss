@@ -1,0 +1,27 @@
+.sub-banner {
+  padding: 50px 0 255px 0;
+  text-align: center;
+  background-color: #f9fafb;
+  .sub-banner__subheading {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4c697b;
+    margin-bottom: 30px;
+  }
+  .sub-banner__heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: #4c697b;
+    margin-bottom: 20px;
+  }
+  .sub-banner__heading-decs {
+    font-size: 18px;
+    color: #4c697b;
+    margin-bottom: 30px;
+  }
+  .sub-banner-btn {
+    padding: 15px 40px;
+    font-size: 16px;
+  }
+}
